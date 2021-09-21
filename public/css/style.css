@@ -31066,3 +31066,46 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 .nav-header .logo-abbr {
   max-width: 52px;
 }
+
+.content-body .container-fluid, .content-body .container-sm, .content-body .container-md, .content-body .container-lg, .content-body .container-xl {
+  padding-top: 0;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.nav-header h3 {
+  text-transform: uppercase;
+}
+
+.user-roles input{
+  margin-right: 5px;
+}
+.copyright strong {
+  text-transform: capitalize;
+}
+
+.btn {
+  padding: 0.938rem 1.5rem !important;  }
+
+  .adduser td {
+
+    padding: 10px;
+  }
+ .adduser .btn{
+   margin-top: 10px;
+  margin-bottom: 20px;
+  }
+  .guest-users td, .customers td{
+    
+    padding-right: 10px;
+  }
+  button#insert_fixed_charge {
+    margin: 10px 0;
+}
+  .guest-users table , .customers{
+    text-align: center;
+  }
+
+  /* .........................................................................  */
+  .new-logo {
+    max-width: 52px;
+}
