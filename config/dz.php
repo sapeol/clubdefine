@@ -49,6 +49,7 @@ return [
 				'manualcharges' => [
 					'vendor/bootstrap-select/dist/css/bootstrap-select.min.css',
 					'vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css',
+					'vendor/datatables/css/jquery.dataTables.min.css',
 				],
 				'bulk_charges' => [
 						'vendor/bootstrap-select/dist/css/bootstrap-select.min.css',
@@ -87,7 +88,8 @@ return [
 				'fixed_charges' => [
 					'vendor/bootstrap-select/dist/css/bootstrap-select.min.css',
 					'vendor/lightgallery/css/lightgallery.min.css',
-					'vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css',
+					'vendor/bootstrap-daterangepicker/daterangepicker.css',
+				
 					'vendor/datatables/css/jquery.dataTables.min.css',
 				],
 				'payment_reports' => [
@@ -107,6 +109,11 @@ return [
 					'vendor/lightgallery/css/lightgallery.min.css',
 					'vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css',
 					'vendor/datatables/css/jquery.dataTables.min.css',
+				
+					'vendor/bootstrap-daterangepicker/daterangepicker.css',
+				
+					'vendor/pickadate/themes/default.css',
+					'vendor/pickadate/themes/default.date.css',
 				],
 				'all_users' => [
 					'vendor/bootstrap-select/dist/css/bootstrap-select.min.css',
@@ -157,6 +164,8 @@ return [
 					],
 				'manualcharges' => [
 					'vendor/bootstrap-select/dist/js/bootstrap-select.min.js',
+					'vendor/datatables/js/jquery.dataTables.min.js',
+					'js/plugins-init/datatables.init.js',
 					'js/custom.min.js',
 					'js/deznav-init.js',
 					],
@@ -194,14 +203,16 @@ return [
 					],
 				'fixed_charges' => [
 					'vendor/bootstrap-select/dist/js/bootstrap-select.min.js',
-					'vendor/bootstrap-select/dist/js/bootstrap-select.min.js',
 					'vendor/datatables/js/jquery.dataTables.min.js',
 					'js/plugins-init/datatables.init.js',
+					'vendor/moment/moment.min.js',
+					'vendor/bootstrap-daterangepicker/daterangepicker.js',
+				
+					'js/plugins-init/bs-daterange-picker-init.js',
 					'js/custom.min.js',
 					'js/deznav-init.js',
 					],
 				'payment_reports' => [
-					'vendor/bootstrap-select/dist/js/bootstrap-select.min.js',
 					'vendor/bootstrap-select/dist/js/bootstrap-select.min.js',
 					'vendor/datatables/js/jquery.dataTables.min.js',
 					'js/plugins-init/datatables.init.js',
@@ -210,7 +221,6 @@ return [
 					],
 				'service_revenue' => [
 					'vendor/bootstrap-select/dist/js/bootstrap-select.min.js',
-					'vendor/bootstrap-select/dist/js/bootstrap-select.min.js',
 					'vendor/datatables/js/jquery.dataTables.min.js',
 					'js/plugins-init/datatables.init.js',
 					'js/custom.min.js',
@@ -218,11 +228,17 @@ return [
 					],
 				'non_fixed_charges' => [
 					'vendor/bootstrap-select/dist/js/bootstrap-select.min.js',
-					'vendor/bootstrap-select/dist/js/bootstrap-select.min.js',
+					'vendor/moment/moment.min.js',
+					'vendor/bootstrap-daterangepicker/daterangepicker.js',
 					'vendor/datatables/js/jquery.dataTables.min.js',
 					'js/plugins-init/datatables.init.js',
+					'js/plugins-init/bs-daterange-picker-init.js',
 					'js/custom.min.js',
 					'js/deznav-init.js',
+				
+					
+					
+	
 					],
 
 				'all_users' => [

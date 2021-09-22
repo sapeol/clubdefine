@@ -31,7 +31,59 @@
 						</td>
 					</tr>
 				</tbody></table>
-				<div id="past-data"></div>
+				<div class="row mt-5" id="past-data">
+				<div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Payments</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-responsive-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>Service Name</th>
+                                                <th>Charge</th>
+                                                <th>Paid</th>
+                                                <th>Charge Date</th>
+                                                <th>Hebrew Date</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>TEST</td>
+                                                <td class="color-danger">$77.77	</td>
+                                                <td class="color-success" >$12
+                                                </td>
+                                                <td>09/02/2021	</td>
+                                                <td >13/25/5781</td>
+                                            </tr>
+                                            <tr>
+                                                <td>FIXED charge 1</td>
+                                                <td class="color-danger">$75.77	</td>
+                                                <td class="color-success">$12
+                                                </td>
+                                                <td>09/02/2021	</td>
+                                                <td >13/12/5781</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fixed Charge 3	</td>
+                                                <td class="color-danger">$77	</td>
+                                                <td class="color-success" >$12.5</span>
+                                                </tdclass=>
+                                                <td>09/02/2021	</td>
+                                                <td >13/24/5781</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+
+
+				<label class="align-items-center d-flex" for="money">Amount:  <input name="money" class="form-control input-default col-4 ml-3" type="number"> <button class="btn btn-primary" >Pay Now</button></label>
 			</div>
 		
 		

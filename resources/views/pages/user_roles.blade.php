@@ -23,27 +23,27 @@
                     <div class="col-4">  
                         
                       <p>      All (178/2)</p>
-<p>- Core (65/2)</p>
-<p>- General (14/1)</p>
-<p>- Themes (7/0)</p>
-<p>- Posts (12/0)</p>
-<p>- Pages (10/0)</p>
-<p>- Plugins (6/0)</p>
-<p>- Users (6/0)</p>
+                        <p>- Core (65/2)</p>
+                        <p>- General (14/1)</p>
+                        <p>- Themes (7/0)</p>
+                        <p>- Posts (12/0)</p>
+                        <p>- Pages (10/0)</p>
+                        <p>- Plugins (6/0)</p>
+                        <p>- Users (6/0)</p>
 
-<p>- Subscriptions (10/0)</p>
-<p>- Contact Forms (11/0)</p>
-<p>- Announcements (11/0)</p>
-<p>- Orders (11/0)</p>
-<p>- Custom capabilities (112/0)</p>
-<p>- User Role Editor (7/0)</p>
-<p>- WooCommerce (53/0)</p>
-<p>- Core (2/0)</p>
-<p>- Services (17/0)</p>
-<p>- Orders (17/0)</p>
-<p>- Variations (10/0)</p>
-<p>- Refunds (10/0)</p>
-                       
+                        <p>- Subscriptions (10/0)</p>
+                        <p>- Contact Forms (11/0)</p>
+                        <p>- Announcements (11/0)</p>
+                        <p>- Orders (11/0)</p>
+                        <p>- Custom capabilities (112/0)</p>
+                        <p>- User Role Editor (7/0)</p>
+                        <p>- WooCommerce (53/0)</p>
+                        <p>- Core (2/0)</p>
+                        <p>- Services (17/0)</p>
+                        <p>- Orders (17/0)</p>
+                        <p>- Variations (10/0)</p>
+                        <p>- Refunds (10/0)</p>
+                                            
 
                     </div>
                     <div class="col-4">

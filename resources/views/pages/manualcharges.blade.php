@@ -259,7 +259,95 @@
 					<span class="dashicons dashicons-insert" id="add"></span>
 					<span class="dashicons dashicons-remove" id="remove"></span>
 					
+			
 
+					<div class="reports-sub row mt-3" >
+					
+					<div class="features-btn col-lg-6  col-sm-12">
+						<div class="row">
+							<div class="mov col-lg-6  col-sm-12"><span>Start date & End Date:</span><input class="form-control input-daterange-datepicker" type="text" name="daterange" value="01/01/2015 - 01/31/2015">
+						   
+							</div>
+							<div class="col-lg-6  col-sm-12">
+								<br>
+								<div class="btn-group ">
+									<button type="button" class="btn btn-primary">Excel</button>
+									<button type="button" class="btn btn-primary">Print</button>
+								   
+								</div> 
+							</div>
+						</div>
+					</div>
+				   <!-- <div class="search col-lg-6  col-sm-12"> 
+					   
+					<div class="row"><div class="col-8"></div><div class="col-xl-4"> <span>search</span> <input  class="form-control input-default" type="text"> </div></div>
+				</div> -->
+				</div >
+				<div class="row mt-3">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Users</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="example" class="display min-w850">
+                                        <thead>
+                                            <tr>
+                                                <th>User Name</th>
+                                                <th>Service Name</th>
+												<th>Charge</th>
+												<th>Parsha</th>
+                                                <th>Details</th>
+                                                <th>Notes</th>
+												<th>Charge Date</th>
+												<th>Hebrew Date</th>
+												<th>Action</th>
+                                       
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>ccdev1</td>
+                                                <td>דמי חבר חודשי</td>
+												<td>$320,800</td>
+												<td>פרשת נח	</td>
+												<td>הוצאה והכנסה</td>
+												<td>Test Order</td>
+                                                <td>2011/04/25</td>
+												<td>2011/04/5781</td>
+                                                <td>
+													<div class="d-flex">
+														<a href="#" class="btn btn-primary shadow btn-xs sharp mr-1"><i class="fa fa-pencil"></i></a>
+														<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+													</div>												
+												</td>
+                                            </tr>
+											
+											
+                                            
+                                        </tbody>
+                                        <tfoot>
+										<tr>
+                                                <th>User Name</th>
+                                                <th>Service Name</th>
+												<th>Charge</th>
+												<th>Parsha</th>
+                                                <th>Details</th>
+                                                <th>Notes</th>
+												<th>Charge Date</th>
+												<th>Hebrew Date</th>
+												<th>Action</th>
+                                       
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				
+				</div>
 			</div>
 		
 		<!--**********************************

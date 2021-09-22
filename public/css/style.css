@@ -31085,6 +31085,8 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 
 .btn {
   padding: 0.938rem 1.5rem !important;  }
+  .btn.btn-xs {
+    padding: 0.2em  !important;  }
 
   .adduser td {
 
